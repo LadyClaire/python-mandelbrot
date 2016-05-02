@@ -1,5 +1,6 @@
 # Renders the Mandelbrot Set in ASCII art. This version of the code
 # runs with Python 3. 
+# Claire Cavanaugh, 2016
 # With special thanks to pjdelport for her help with optimizing.
 
 import curses
@@ -45,7 +46,8 @@ def main(stdscr):
             c = complex(x, y)
             stdscr.addstr(row, col, mandelbrotTest(c))
         stdscr.refresh()
-
+    
+    stdscr.getkey()
 
 
 if __name__ == "__main__":
