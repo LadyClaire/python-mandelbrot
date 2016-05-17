@@ -1,6 +1,6 @@
 # Renders the Mandelbrot Set in ASCII art. This version of the code
 # runs with Python 3. 
-# Claire Cavanaugh, 2016
+# Claire C.C., 2016
 # With special thanks to pjdelport for her help with optimizing.
 
 import curses
