@@ -1,7 +1,7 @@
 # Renders the Mandelbrot Set in ASCII art. This version of the code
 # runs with Python 2. 
 # Claire C.C., 2016
-# With special thanks to pjdelport for her help with optimizing.
+# With special thanks to Pi Delport for her help with optimizing.
 
 
 from __future__ import division
